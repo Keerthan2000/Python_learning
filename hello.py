@@ -1,17 +1,23 @@
-result=[1,2,3]
+"""result=[1,2,3]
 test=set(result)
 print(result)
-print(test)
+print(test)"""
 """thisset = {"apple", "banana", "cherry"}
+print(x for x in thisset if x =="banana")
 for x in thisset:
 	if x =="kiwi":
 		print("Value")
 	else :
 		print("No value")"""
-"""string="Keerthan is A developer"
+string="Keerthan is A developer"
+#print(string[-1::-1])
 print(string.split())
 result= string.split()
-if 'is' in string:
+result.reverse()
+print(result)
+print(" ".join(result))
+    
+"""if 'is' in string:
     print("expected value is present")
 else:
     print("Not present")
